@@ -14,9 +14,9 @@ struct Node {
 template<typename T>
 class TPQueue {
  private:
-    Node<T>* head;
-    Node<T>* tail;
-    int count;
+		Node<T>* head;
+		Node<T>* tail;
+		int count;
 
  public:
     TPQueue() : head(nullptr), tail(nullptr), count(0) {}
