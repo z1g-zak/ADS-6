@@ -13,12 +13,12 @@ struct Node {
 
 template<typename T>
 class TPQueue {
-private:
+ private:
     Node<T>* head;
     Node<T>* tail;
     int count;
 
-public:
+ public:
     TPQueue() : head(nullptr), tail(nullptr), count(0) {}
 
     ~TPQueue() {
